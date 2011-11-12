@@ -46,7 +46,8 @@ ZEUS.CommandCenter.prototype= {
 					found=true;
 				}
 			}
-		} else if (len===0 || !found) {
+		}
+		if (len===0 || !found) {
 			cs.push([c]);
 		}
 	},
@@ -62,6 +63,7 @@ ZEUS.CommandCenter.prototype= {
 		res=[],
 		getIDRange=function(start,length) {
 			var ids=[];
+			//if(start===length) return start.toString();
 			while(start!=length) {
 				ids.push(start);
 				start+=1;
@@ -80,12 +82,12 @@ ZEUS.CommandCenter.prototype= {
 			j=0;
 			//write out the argument name and mapped ids
 			res.push(ZEUS.Configuration.ArgumentSpacer);
-			res.push(sameCommands[i].Name);
+			res.push(sameCommands[0].Name);
 			res.push(ZEUS.Configuration.KeyValueSpacer);
-			res.push(getIDRange(totalIter,sameCommandsLen));
+			res.push(getIDRange(totalIter,sameCommandsLen+totalIter));
 			//with each command in its array
 			for(;j<sameCommandsLen;j+=1) {
-				cArgs=sameCommands[i].Args,
+				cArgs=sameCommands[j].Args,
 				cArgsLen=cArgs.length,
 				cArgsIter=0;
 				//for each argument in the command
@@ -98,7 +100,9 @@ ZEUS.CommandCenter.prototype= {
 					res.push(ZEUS.Configuration.KeyValueSpacer);
 					res.push(thisArg[1]);
 				}//end loop over arguments
+				totalIter+=1;
 			}//end loop over commands of a type
+			
 		}//end loop over command arrays
 		return res.join("");
 	},
