@@ -1,0 +1,7 @@
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Tests\bin\Debug\Zeus.Tests.dll
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Tests\bin\Debug\Zeus.Tests.pdb
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Tests\bin\Debug\Zeus.Domain.dll
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Tests\bin\Debug\Zeus.Domain.pdb
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Tests\obj\Debug\Zeus.Tests.dll
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Tests\obj\Debug\Zeus.Tests.pdb

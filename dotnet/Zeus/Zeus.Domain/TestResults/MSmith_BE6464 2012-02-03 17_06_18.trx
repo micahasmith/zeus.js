@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bd1d0e50-8a9f-4ca1-b6e7-ad55da400b3a" name="MSmith@BE6464 2012-02-03 17:06:18" runUser="BEDOMAIN\MSmith" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e0105c78-7d91-44d7-b36e-26698e57ed5a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="MSmith_BE6464 2012-02-03 17_06_18">
+      <DeploymentItem filename="C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Domain\Zeus.Domain\bin\Debug\Zeus.Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-03T17:06:18.4246531-05:00" queuing="2012-02-03T17:06:22.1400246-05:00" start="2012-02-03T17:06:22.5010607-05:00" finish="2012-02-03T17:06:24.9593065-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Will_parse_multiple_commands_with_arguments_correctly" storage="c:\users\msmith\documents\my dropbox\git\zeus\zeus.tests\bin\debug\zeus.tests.dll" id="94d72177-3d7a-cc9b-e09f-14b28d4ac98a">
+      <Execution id="73257d5e-f867-453f-b7be-7d97acfb1ca2" />
+      <TestMethod codeBase="C:/Users/MSmith/Documents/My Dropbox/Git/Zeus/Zeus.Tests/bin/Debug/Zeus.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zeus.Tests.ZeusParser_Tests, Zeus.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Will_parse_multiple_commands_with_arguments_correctly" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="94d72177-3d7a-cc9b-e09f-14b28d4ac98a" executionId="73257d5e-f867-453f-b7be-7d97acfb1ca2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="73257d5e-f867-453f-b7be-7d97acfb1ca2" testId="94d72177-3d7a-cc9b-e09f-14b28d4ac98a" testName="Will_parse_multiple_commands_with_arguments_correctly" computerName="BE6464" duration="00:00:00.0809453" startTime="2012-02-03T17:06:22.7600866-05:00" endTime="2012-02-03T17:06:24.7712877-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73257d5e-f867-453f-b7be-7d97acfb1ca2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

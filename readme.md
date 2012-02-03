@@ -35,7 +35,7 @@ The CommandCenter object aggregates the commands and also performs serialization
 	
 ### Serialization Syntax
 
-During the serialization process, commands get grouped together and assigned an identity. Using the example above this is noticable-- the add command was assigned an id of 0.
+During the serialization process, commands get grouped together and assigned an identity. Using the example above this is noticeable-- the add command was assigned an id of 0.
 
 Arguments take on the form of id_key=value--that is why after the add=0 id assignment we saw 0_num1=3; the add command with an id of 0 had a num1 argument of 3. 
 

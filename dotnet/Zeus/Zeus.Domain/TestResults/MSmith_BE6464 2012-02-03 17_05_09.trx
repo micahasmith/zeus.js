@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dc038d18-8470-4844-84d2-95a51133da7a" name="MSmith@BE6464 2012-02-03 17:05:09" runUser="BEDOMAIN\MSmith" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e0105c78-7d91-44d7-b36e-26698e57ed5a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="MSmith_BE6464 2012-02-03 17_05_09">
+      <DeploymentItem filename="C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Domain\Zeus.Domain\bin\Debug\Zeus.Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-03T17:05:09.0427156-05:00" queuing="2012-02-03T17:05:13.4321545-05:00" start="2012-02-03T17:05:13.7571870-05:00" finish="2012-02-03T17:05:37.9536064-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="BE6464" outcome="Error" timestamp="2012-02-03T17:05:37.9526063-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Will_parse_multiple_commands_with_arguments_correctly" storage="c:\users\msmith\documents\my dropbox\git\zeus\zeus.tests\bin\debug\zeus.tests.dll" id="94d72177-3d7a-cc9b-e09f-14b28d4ac98a">
+      <Execution id="537d3f9e-0d59-4292-9d2a-f8291a846dc1" />
+      <TestMethod codeBase="C:/Users/MSmith/Documents/My Dropbox/Git/Zeus/Zeus.Tests/bin/Debug/Zeus.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zeus.Tests.ZeusParser_Tests, Zeus.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Will_parse_multiple_commands_with_arguments_correctly" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="94d72177-3d7a-cc9b-e09f-14b28d4ac98a" executionId="537d3f9e-0d59-4292-9d2a-f8291a846dc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="537d3f9e-0d59-4292-9d2a-f8291a846dc1" testId="94d72177-3d7a-cc9b-e09f-14b28d4ac98a" testName="Will_parse_multiple_commands_with_arguments_correctly" computerName="BE6464" duration="00:00:23.9203918" startTime="2012-02-03T17:05:14.0332146-05:00" endTime="2012-02-03T17:05:37.9536064-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="537d3f9e-0d59-4292-9d2a-f8291a846dc1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

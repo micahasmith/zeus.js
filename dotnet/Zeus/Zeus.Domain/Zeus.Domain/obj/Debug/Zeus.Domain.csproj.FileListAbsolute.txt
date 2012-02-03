@@ -1,0 +1,5 @@
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Domain\Zeus.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Domain\Zeus.Domain\bin\Debug\Zeus.Domain.dll
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Domain\Zeus.Domain\bin\Debug\Zeus.Domain.pdb
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Domain\Zeus.Domain\obj\Debug\Zeus.Domain.dll
+C:\Users\MSmith\Documents\My Dropbox\Git\Zeus\Zeus.Domain\Zeus.Domain\obj\Debug\Zeus.Domain.pdb
